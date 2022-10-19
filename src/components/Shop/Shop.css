@@ -9,5 +9,8 @@
 }
 
 .cart-container {
-    background-color: rgb(255, 165, 0, 0.6);
+    background-color: black;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
 }

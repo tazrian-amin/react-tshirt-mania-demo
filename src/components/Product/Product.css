@@ -5,13 +5,22 @@
     border-radius: 10px;
 }
 
+.image-container {
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 .image-container img {
-    width: 250px;
-    height: 300px;
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .product-detail button {
-    background-color: orange;
+    background-color: black;
+    color: white;
     border-radius: 5px;
     padding: 10px 20px;
     font-weight: 600;
@@ -19,7 +28,7 @@
 }
 
 .product-detail button:hover {
-    background-color: black;
-    color: white;
+    background-color: rgba(255, 166, 0, 0.861);
+    color: black;
     font-weight: 700;
 }

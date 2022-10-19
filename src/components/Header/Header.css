@@ -1,6 +1,21 @@
 .header {
     background-color: black;
-    padding: 20px 0;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo-container {
+    background-color: whitesmoke;
+    padding: 5px 5px 4px 8px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+img {
+    width: 35px;
+    height: 35px;
 }
 
 .nav-link {
@@ -8,10 +23,10 @@
     margin-right: 20px;
     font-size: 22px;
     font-weight: 500;
-    color: orange;
+    color: white;
 }
 
 .nav-link:hover {
     font-weight: 700;
-    color: white;
+    color: orange;
 }
