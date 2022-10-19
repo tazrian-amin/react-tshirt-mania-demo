@@ -1,0 +1,25 @@
+.product-container {
+    margin: 20px;
+    padding-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.image-container img {
+    width: 250px;
+    height: 300px;
+}
+
+.product-detail button {
+    background-color: orange;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.product-detail button:hover {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+}

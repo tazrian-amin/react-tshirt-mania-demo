@@ -1,0 +1,24 @@
+.ordered-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ordered-items li {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.ordered-items li>button {
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 2px 5px;
+    border: 0;
+}
+
+.ordered-items li>button:hover {
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+}
