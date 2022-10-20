@@ -16,6 +16,10 @@ function App() {
           element: <Home></Home>
         },
         {
+          path: '/home',
+          element: <Home></Home>
+        },
+        {
           path: '/shop',
           loader: () => fetch('tshirts.json'),
           element: <Shop></Shop>

@@ -4,15 +4,23 @@ import { NavLink } from 'react-router-dom';
 import '../Header/Header.css';
 
 const Header = () => {
+    const navLinks = ['Home', 'Shop', 'Contact'];
     return (
         <div className='header'>
             <div className='logo-container'>
                 <img src={logo} alt="logo" />
             </div>
             <div>
-                <NavLink className='nav-link' to="/">Home</NavLink>
-                <NavLink className='nav-link' to="/shop">Shop</NavLink>
-                <NavLink className='nav-link' to="/contact">Contact</NavLink>
+                {
+                    navLinks.map((navLink, idx) => <NavLink
+                        key='idx'
+                        className='nav-link'
+                        to={navLink.toLowerCase()}
+                        style={({ isActive }) =>
+                            isActive ? { color: 'orange' } : undefined
+                        }
+                    >{navLink}</NavLink>)
+                }
             </div>
         </div>
     );
