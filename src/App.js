@@ -4,6 +4,7 @@ import Home from './components/Home/Home';
 import Shop from './components/Shop/Shop';
 import Main from './layout/Main';
 import Contact from './components/Contact/Contact';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   const router = createBrowserRouter([
@@ -29,6 +30,10 @@ function App() {
           element: <Contact></Contact>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <NotFound></NotFound>
     }
   ])
 
